@@ -16,10 +16,16 @@ public class CeaserCypher {
 
         for (int i = 0; i < result.length(); i++) {
             char currentChar = result.charAt(i);
-            int index = allCharacters.indexOf(currentChar);
 
+            // If it's a space, just leave it unchanged
+            if (currentChar == ' ') {
+                continue;
+            }
+
+            int index = allCharacters.indexOf(currentChar);
             if (index != -1) {
-                int newIndex = (index + key) % charSetLength; // Shift characters within bounds
+                // Shift characters within bounds
+                int newIndex = (index + key) % charSetLength;
                 result.setCharAt(i, allCharacters.charAt(newIndex));
             }
         }
