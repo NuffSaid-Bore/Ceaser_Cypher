@@ -2,6 +2,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         CeaserCypher cypher = new CeaserCypher();
         WordPlay wp = new WordPlay();
+
+        RandomNumbers rNumbers = new RandomNumbers();
         String message = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
         int key = 10;
         String encryptedText = cypher.encrypt(message, key);
@@ -21,5 +23,8 @@ public class App {
         System.out.println("\n============CEASER CYPHER===========");
         System.out.println("The Encrypted Text is: "+encryptedText );
         System.out.println("The Decrypted Text is: "+decryptedText);
+
+        rNumbers.SimpleSimulate(100);
+        
     }
 }
