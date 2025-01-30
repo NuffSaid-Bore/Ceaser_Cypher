@@ -5,7 +5,7 @@ public class App {
 
         RandomNumbers rNumbers = new RandomNumbers();
         String message = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
-        int key = 10;
+        int key = 15;
         String encryptedText = cypher.encrypt(message, key);
         String decryptedText = cypher.decrypt(encryptedText, key);
 
@@ -24,7 +24,8 @@ public class App {
         System.out.println("The Encrypted Text is: "+encryptedText );
         System.out.println("The Decrypted Text is: "+decryptedText);
 
-        rNumbers.SimpleSimulate(100);
+        // rNumbers.SimpleSimulate(100);
+        rNumbers.Simulate(10);
         
     }
 }

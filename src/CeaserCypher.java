@@ -1,5 +1,5 @@
 public class CeaserCypher {
-    private final String allCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()-_=+[]{},.<>?/\\|`~;:'\" ";
+    private final String allCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
     public String encrypt(String input, int key) {
         return transform(input, key); // Encrypt with forward shift
