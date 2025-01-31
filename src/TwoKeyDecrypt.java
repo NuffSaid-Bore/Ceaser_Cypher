@@ -40,7 +40,7 @@ public class TwoKeyDecrypt {
     public static void main(String[] args) {
         TwoKeyDecrypt cipher = new TwoKeyDecrypt();
 
-        String encrypted = "Akag tjw Xibhr awoa aoee xakex znxag xwko";  // Encrypted message
+        String encrypted = "Uybi Gfqgykii Jgziegv Uigeixdiex Smiizzin";  // Encrypted message
 
         // Try all possible key combinations for key1 and key2 (brute-force)
         for (int key1 = 1; key1 <= 26; key1++) {

@@ -1,0 +1,10 @@
+Tree
+Car
+Dog
+House
+River
+Book
+Chair
+Mountain
+Computer
+City

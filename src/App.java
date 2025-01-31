@@ -4,7 +4,7 @@ public class App {
         WordPlay wp = new WordPlay();
 
         RandomNumbers rNumbers = new RandomNumbers();
-        String message = "At noon be in the conference room with your hat on for a surprise party. YELL LOUD!";
+        String message = "Can you imagine life WITHOUT the internet AND computers in your pocket?";
         int key = 15;
         String encryptedText = cypher.encrypt(message, key);
         String decryptedText = cypher.decrypt(encryptedText, key);

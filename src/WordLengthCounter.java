@@ -64,10 +64,17 @@ public class WordLengthCounter {
     public static void main(String[] args) {
        
         String filePaths = "./src/romeo.txt";
+        String filePatherror = "./src/errors.txt";
+        String filePathMany = "./src/manywords.txt";
         String filePath = "./src/lotsOfWords.txt"; 
         System.out.println("\nLots Of Words Text");
         findMostCommonWordLength(filePath);
         System.out.println("\nRomeo Text");
         findMostCommonWordLength(filePaths);
+        System.out.println("\nErrors Text");
+        findMostCommonWordLength(filePatherror);
+
+        System.out.println("\nMany Words Text");
+        findMostCommonWordLength(filePathMany);
     }
 }
